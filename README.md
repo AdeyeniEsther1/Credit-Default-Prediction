@@ -9,6 +9,9 @@ An end-to-end, AI-powered credit risk underwriting platform. This system utilize
 
 ---
 
+## 🔗 Live Demo
+**Try the app live here:** [Credit Default Predictor Dashboard](https://credit-default-prediction-ewatyvhafgqrjkvtrkvl8q.streamlit.app/)
+
 ## ✨ Features
 
 - **Credit Score Transformation:** Seamlessly converts raw machine learning probability outputs into a familiar, scalable FICO-style credit score range (300 to 850).
