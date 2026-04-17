@@ -9,10 +9,10 @@ An end-to-end, AI-powered credit risk underwriting platform. This system utilize
 
 ---
 
-## 🔗 Live Demo
+##  Live Demo
 **Try the app live here:** [Credit Default Predictor Dashboard](https://credit-default-prediction-ewatyvhafgqrjkvtrkvl8q.streamlit.app/)
 
-## ✨ Features
+##  Features
 
 - **Credit Score Transformation:** Seamlessly converts raw machine learning probability outputs into a familiar, scalable FICO-style credit score range (300 to 850).
 - **Automated Lending Decisions:** Evaluates applications instantly and issues a structured directive: 
@@ -25,7 +25,7 @@ An end-to-end, AI-powered credit risk underwriting platform. This system utilize
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 Make sure you have Python installed, then run:
@@ -51,7 +51,7 @@ streamlit run app.py
 
 ---
 
-## 🛠 Usage Guide
+##  Usage Guide
 
 The Streamlit interface is divided into two primary tabs:
 
