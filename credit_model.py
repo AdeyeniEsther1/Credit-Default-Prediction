@@ -78,8 +78,8 @@ def preprocess(df: pd.DataFrame, caps: dict = None, income_median: float = None)
     # Imputation
     if income_median is None:
         income_median = df["MonthlyIncome"].median()
-    df["MonthlyIncome"].fillna(income_median, inplace=True)
-    df["NumberOfDependents"].fillna(0, inplace=True)
+    df["MonthlyIncome"] = df["MonthlyIncome"].fillna(income_median)
+    df["NumberOfDependents"] = df["NumberOfDependents"].fillna(0)
 
     # Outlier capping
     if caps is None:
