@@ -1,0 +1,16 @@
+# ML Model Artifacts (Too large for standard GitHub LFS)
+best_model.pkl
+*.pkl
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+catboost_info/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
