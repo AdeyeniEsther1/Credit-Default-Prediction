@@ -7,9 +7,6 @@ An end-to-end, AI-powered credit risk underwriting platform. This system utilize
 ![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-brightgreen)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-orange)
 
-## 🔗 Live Demo
-**Try the app live here:** [Credit Default Predictor Dashboard](https://credit-default-prediction-bn6z4qf5tmkjwmn5g2tzct.streamlit.app/)
-
 ---
 
 ##  Live Demo
@@ -58,7 +55,7 @@ streamlit run app.py
 
 The Streamlit interface is divided into two primary tabs:
 
-### 👤 Single Prediction
+###  Single Prediction
 Perfect for interacting with the application via simulated numbers.
 - Manually enter standard borrower metrics (Age, Utilization, Number of Dependents, Delinquency History, etc.).
 - **Info Tooltips:** Every input includes a tiny `(?)` marker mathematically explaining the specific feature definition to guarantee error-free entries.
@@ -72,7 +69,7 @@ Perfect for assessing bulk applications efficiently.
 
 ---
 
-## 🧠 Code Architecture
+##  Code Architecture
 
 - `credit_model.py`: The data-cleaning, model tuning, and evaluation powerhouse. Utilizes RandomizedSearchCV heavily optimized avoiding legacy SMOTE loops in favor of scaled class weights resulting in phenomenal speed hikes.
 - `app.py`: The Streamlit dashboard frontend handling realtime UI deployment, UI configurations, dynamic probability-to-score math scaling logic, and SHAP graphic generation.
