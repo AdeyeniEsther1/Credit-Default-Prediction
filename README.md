@@ -7,6 +7,9 @@ An end-to-end, AI-powered credit risk underwriting platform. This system utilize
 ![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-brightgreen)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-orange)
 
+## 🔗 Live Demo
+**Try the app live here:** [Credit Default Predictor Dashboard](https://credit-default-prediction-bn6z4qf5tmkjwmn5g2tzct.streamlit.app/)
+
 ---
 
 ##  Live Demo

@@ -188,7 +188,7 @@ for name, model in models.items():
 best_name = max(results, key=lambda k: results[k]["roc_auc"])
 best_model = results[best_name]["model"]
 
-print(f"\n   ✓ Best model: {best_name}")
+print(f"\n   * Best model: {best_name}")
 
 # ─────────────────────────────────────────────
 # 8. Hyperparameter tuning
