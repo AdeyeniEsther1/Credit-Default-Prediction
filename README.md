@@ -1,6 +1,8 @@
 # 💳 Credit Score Card System
 
-An end-to-end, AI-powered credit risk underwriting platform. This system utilizes advanced Machine Learning to predict borrower default probabilities, translates them into a classic 300–850 Credit Score metric, and outputs actionable lending decisions backed by explainable AI (SHAP).
+Built an end-to-end credit risk underwriting system that predicts borrower default probability using Machine Learning, converts predictions into a traditional 300–850 credit score, and generates explainable lending decisions using SHAP.
+
+The project covers the full ML lifecycle including data cleaning, feature engineering, class imbalance handling (SMOTE), model training (Logistic Regression, Random Forest, XGBoost, Neural Networks), ROC-AUC evaluation, and experiment tracking.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Framework-FF4B4B)
